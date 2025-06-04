@@ -1,5 +1,4 @@
 # video.github.io
-Assignment 
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -38,9 +37,7 @@ video {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
-3. Create your HTML file
-Example: index.html
-
+HTML file: index.html
 html
 Copiar
 Editar
@@ -58,13 +55,13 @@ Editar
   <div class="step">
     <h2>Step 1: Prepare Your Video File or URL</h2>
     <p>Make sure you have your video ready. You can use a video file like MP4 or a link from YouTube or another hosting service.</p>
-    <img src="step1.png" alt="Preparing the video file" />
+    <img src="https://via.placeholder.com/400x200?text=Step+1+Screenshot" alt="Preparing the video file" />
   </div>
 
   <div class="step">
     <h2>Step 2: Open Your HTML File in a Text Editor</h2>
     <p>Open the HTML file where you want to embed the video. Use a text editor like VSCode, Sublime Text, or Notepad.</p>
-    <img src="step2.png" alt="Opening HTML file in text editor" />
+    <img src="https://via.placeholder.com/400x200?text=Step+2+Screenshot" alt="Opening HTML file in text editor" />
   </div>
 
   <div class="step">
@@ -76,22 +73,22 @@ Editar
   Your browser does not support the video tag.
 &lt;/video&gt;
     </pre>
-    <img src="step3.png" alt="Inserting video embed code" />
+    <img src="https://via.placeholder.com/400x200?text=Step+3+Screenshot" alt="Inserting video embed code" />
   </div>
 
   <div class="step">
     <h2>Step 4: Save Your HTML File</h2>
     <p>Save the changes to your HTML file.</p>
-    <img src="step4.png" alt="Saving HTML file" />
+    <img src="https://via.placeholder.com/400x200?text=Step+4+Screenshot" alt="Saving HTML file" />
   </div>
 
   <div class="video-container">
     <h2>Example Video Embedded</h2>
-    <video controls width="600">
-      <source src="example-video.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
+    <!-- Example video embedded from YouTube -->
+    <iframe width="600" height="340" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+      title="Example Video" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen></iframe>
   </div>
-
 </body>
 </html>
